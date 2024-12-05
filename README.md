@@ -22,12 +22,12 @@ This Python script helps you transform a JSON file into a CSV file by removing u
    ```bash
    cd <repository-directory>
    ```
-3. Place your JSON file in the same directory and name it `test.json`.
+3. Place your JSON file in the same directory and name it `jfile.json`.
 4. Run the script:
    ```bash
    python json_to_csv_clean.py
    ```
-5. The cleaned CSV will be saved as `test.csv` in the same directory.
+5. The cleaned CSV will be saved as `nfile.csv` in the same directory.
 
 ## Customization
 
@@ -45,7 +45,7 @@ removed_details_tags = ['nested_field1', 'nested_field2']
 
 ## Example Input and Output
 
-### Input JSON (`test.json`):
+### Input JSON (`jfile.json`):
 ```json
 [
     {
@@ -58,7 +58,7 @@ removed_details_tags = ['nested_field1', 'nested_field2']
 ]
 ```
 
-### Output CSV (`test.csv`):
+### Output CSV (`nfile.csv`):
 ```
 id,details_useful_field
 1,data
